@@ -1,18 +1,21 @@
 {
-  "name": "y",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "next",
-    "build": "next build"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "facerecognitionbrain",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "isomorphic-unfetch": "^2.1.1",
-    "next": "^9.1.1",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "bootstrap": "^4.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-particles-js": "^2.1.0",
+    "react-scripts": "1.0.17",
+    "react-tilt": "^0.1.4",
+    "reactstrap": "^5.0.0",
+    "tachyons": "^4.9.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
